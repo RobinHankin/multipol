@@ -8,13 +8,6 @@ Multivariate polynomials
 Various tools to manipulate and combine multivariate polynomials
 }
 \details{
-\tabular{ll}{
-Package: \tab multipol\cr
-Type: \tab Package\cr
-Version: \tab 1.0\cr
-Date: \tab 2008-01-24\cr
-License: \tab GPL\cr
-}
 
 Basically, coerce an array to a multivariate polynomial (a
 \dQuote{multipol}) using \code{as.multipol()}.
