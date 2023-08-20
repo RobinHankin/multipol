@@ -2,9 +2,14 @@ Package: multipol
 Type: Package
 Title: Multivariate Polynomials
 Version: 1.0-9
-Author: Robin K. S. Hankin
+Authors@R: person(
+	   given=c("Robin", "K. S."),
+	   family="Hankin",
+	   role = c("aut","cre"),
+	   email="hankin.robin@gmail.com",
+	   comment = c(ORCID = "0000-0001-5982-0415"))
 Depends: abind
-Suggests: polynom
+Suggests: polynom,testthat
 Maintainer: Robin K. S. Hankin <hankin.robin@gmail.com>
 Description: Various utilities to manipulate multivariate polynomials.  The
     package is almost completely superceded by the 'spray' and 'mvp' packages,
